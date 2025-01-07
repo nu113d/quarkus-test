@@ -1,5 +1,5 @@
 ---
 app:
-  image: nexus-nexus-repository-manager.default.svc.cluster.local:5000/test
+  image: nexus-nexus-repository-manager.default.svc.cluster.local:5000/test:latest
   ports:
     http: 8000

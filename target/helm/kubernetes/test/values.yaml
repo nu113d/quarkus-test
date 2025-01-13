@@ -2,4 +2,4 @@
 app:
   image: dockerhost:5000/test:latest
   ports:
-    http: 8000
+    http: 8080

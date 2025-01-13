@@ -16,5 +16,5 @@ COPY --from=builder /app/target/quarkus-app/app/ /app/app/
 COPY --from=builder /app/target/quarkus-app/*.jar /app/quarkus-run.jar
 
 # Run
-EXPOSE 8000
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/app/quarkus-run.jar"]
